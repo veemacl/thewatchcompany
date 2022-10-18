@@ -1,0 +1,71 @@
+* {
+    color: white;
+    border-radius: 10px;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.header {
+    background: saddlebrown;
+    border-bottom: 1px solid sienna;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.left-side, .right-side {
+    display: flex;
+    align-items: center;
+    flex: 0 0 auto;
+    gap: 16px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin: auto 10px;
+}
+
+.content {
+    display: flex;
+    flex:none;
+    background-color: sienna;
+    margin: 10px;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.img-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+input {
+    color: black;
+}
+
+h1 {
+    font-style: italic;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0px;
+}
